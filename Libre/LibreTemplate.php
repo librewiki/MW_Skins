@@ -200,6 +200,16 @@ class LibreTemplate extends BaseTemplate {
 				<div class="row">
 					<div class="col-xs-9">
 						<div class="libre_left_content" role="main">
+							<!-- Footer ad -->
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<ins class="adsbygoogle"
+							 style="display:block; min-width:400px; width:100%; height:90px"
+							 data-ad-client="ca-pub-2664061841343191"
+							 data-ad-slot="6502738263"
+							 data-ad-format="auto"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 							<div id="mw-js-message" style="display:none;"<?php $this->html( 'userlangattributes' ) ?>></div>
 							<div id="mw-notification-area" class="mw-notification-area mw-notification-area-layout" style="display: none;"></div>
 							<?php if ( $this->data['sitenotice'] ) { ?>
@@ -253,16 +263,6 @@ class LibreTemplate extends BaseTemplate {
 							</div>
 						</div>
 						<div id="footer" class="libre_footer" role="contentinfo"<?php $this->html( 'userlangattributes' ) ?>>
-							<!-- Footer ad -->
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<ins class="adsbygoogle"
-							 style="display:block; min-width:400px; width:100%; height:90px"
-							 data-ad-client="ca-pub-2664061841343191"
-							 data-ad-slot="6502738263"
-							 data-ad-format="auto"></ins>
-						<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
 							<?php foreach ( $this->getFooterLinks() as $category => $links ) { ?>
 							<ul id="footer-<?php echo $category ?>">
 								<?php foreach ( $links as $link ) { ?>
@@ -307,7 +307,8 @@ class LibreTemplate extends BaseTemplate {
 								</div>
 								<ul id = "recent-list">
 									<li>불러오고 있습니다...</li>
-								</ul>
+								</ul>\
+								가 나 다
 							</div>
 							<!-- sidebar ad -->
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
