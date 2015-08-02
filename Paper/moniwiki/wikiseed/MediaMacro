@@ -1,0 +1,25 @@
+Alias of the PlayMacro
+
+/!\ 1.0.8 or later
+
+mp3, 동영상, 유튜브 동영상 등등을 지원하는 매크로 플러그인
+
+== 사용법 ==
+{{{[[Play(http://foo.bar/my.mp3)]]}}}
+
+{{{[[Play(mms://foo.bar.com/my.wmv)]]}}}
+
+== 설정 방법 ==
+=== MP3를 위한 설정 ===
+{{{
+$use_jwmediaplayer=1;
+$jwmediaplayer_prefix='http://www.jeroenwijering.com/embed';
+}}}
+이렇게 설정하면 MP3 플레이를 위해서 jwmediaplayer가 사용된다. 기본값으로 설정되어 있다.
+
+== 사용 례 ==
+[[Play(http://alice.dyndns.info/download/Day%20Dream.mp3)]]
+----
+원래는 PlayMacro라는 이름으로 만들었다가 [[미디어위키]]와 일관성있게 하기 위해서 {{{[[Media()]]}}} 플러그인을 별명으로 함께 등록하였습니다.
+----
+CategoryMacro

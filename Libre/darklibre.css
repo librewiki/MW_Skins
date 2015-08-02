@@ -1,0 +1,59 @@
+/* 다크다크한 리브레 스킨 */
+html, body {
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-color: #fff;
+}
+
+@-moz-document url-prefix() {
+	html.darklibre {
+		background-color: #000;
+	}
+}
+
+.darklibre {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	-moz-filter: invert(100%);
+	-o-filter: invert(100%);
+	-ms-filter: invert(100%);
+}
+
+.darklibre img {
+	-webkit-filter: invert(100%);
+        filter: invert(100%);
+        -moz-filter: invert(100%);
+        -o-filter: invert(100%);
+        -ms-filter: invert(100%);
+}
+
+.darklibre iframe {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+        -moz-filter: invert(100%);
+        -o-filter: invert(100%);
+        -ms-filter: invert(100%);
+}
+.darklibre video {
+        -webkit-filter: invert(100%);
+        filter: invert(100%);
+        -moz-filter: invert(100%);
+        -o-filter: invert(100%);
+        -ms-filter: invert(100%);
+}
+
+.darklibre .tex {
+        -webkit-filter: invert(0%);
+        filter: invert(0%);
+        -moz-filter: invert(0%);
+        -o-filter: invert(0%);
+        -ms-filter: invert(0%);
+}
+
+.darklibre .navbar-brand {
+	-webkit-filter: invert(100%);
+        filter: invert(100%);
+        -moz-filter: invert(100%);
+        -o-filter: invert(100%);
+        -ms-filter: invert(100%);
+}

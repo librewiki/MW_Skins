@@ -1,0 +1,790 @@
+* {
+	word-wrap: break-word;
+	word-break: normal;
+}
+
+body {
+	background-color: #f9f9f9;
+	font-family: Arial, 'Meiryo', '나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', 'Open Sans', 'Apple SD Gothic Neo', 'Noto Sans Korean', '본고딕', 'KoPubDotum Medium', sans-serif;
+	font-size: 14px;
+	line-height: 1.46857143;
+}
+
+code, kbd, pre, samp {
+	font-family: Arial, 'Meiryo', '나눔바른고딕', '나눔고딕', 'NanumGothic', '맑은고딕', 'Malgun Gothic', 'Open Sans', 'Apple SD Gothic Neo', 'Noto Sans Korean', '본고딕', 'KoPubDotum Medium', sans-serif !important;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+ul {
+	list-style-image: none;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%; 
+	height: auto;
+}
+
+caption {
+	padding: 0;
+	color: #252525;
+	text-align: center;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+}
+
+.mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd {
+	margin-left: 1.0em;
+}
+
+.mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol {
+	margin-left: 2.0em;
+}
+
+.top_scroll {
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+	display: none;
+}
+
+.tooltip-inner {
+	max-width: 350px;
+}
+
+.top_s_btn {
+	border-radius: 5px;
+	color: #fff;
+	background-color: rgba(50,50,50,.8);
+	z-index: 999;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-right: 13px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+.table.navbox {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.top_scroll a:visited {
+	color: #fff;
+}
+
+.top_scroll a:hover {
+	color: #fff;
+}
+
+.alert-dismissable .close, .alert-dismissible .close {
+	position: static;
+}
+
+#alertmsg {
+	display: none;
+}
+
+a.external {
+    color: #5cb85c;
+	padding: 0;
+}
+
+a.external:visited {
+	color: #5cb85c !important;
+}
+
+.mw-body a.external:visited {
+	color: #5cb85c !important;
+}
+
+#content .external {
+    background-image: none;
+	padding: 0;
+}
+
+a.external:before {
+    background-color: #5cb85c;
+    content: '外';
+    color: white;
+}
+
+.mw-body a.external {
+	color: #5cb85c;
+}
+
+.mw-body a.free {
+	word-break: break-all;
+}
+
+.wikitable {
+	word-break: break-all;
+}
+
+div#body_wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+div#mw-navigation {
+	display: none;
+}
+
+.noprint {
+	display: none;
+}
+
+.row {
+	margin: 0;
+}
+
+.col-xs-9 {
+	padding: 0;
+	position: relative;
+}
+
+.col-xs-3 {
+	padding: 0;
+	position: relative;
+}
+
+.nav>li>a {
+    padding: 10px 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top_navi {
+	z-index: 9999;
+}
+
+.navbar {
+    margin: 0 auto;
+    height: 50px;
+	max-width: 1200px;
+}
+
+.navbar-iWiki {
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    background-color: white;
+	width: 100%;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.7em;
+    text-shadow: 0.05em 0.05em 0.18em #bbb;
+    color: #333;
+}
+
+.navbar-form {
+    padding: 0;
+}
+
+.navbar-small-form {
+    display: none;
+}
+
+.navbar-personal {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    margin-top: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+.navbar-personalbar{
+    width: 210px;
+    margin: 0;
+}
+
+#pt-notifications .mw-echo-notifications-badge {
+    margin: 0;
+}
+
+.mw-echo-overlay {
+    z-index: 10000 !important;
+    top: 50px !important;
+}
+
+.mw-echo-overlay:before, .mw-echo-overlay::before {
+    display: none;
+}
+
+.loginbtn {
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+#pt-userpage {
+	background-image: none;
+	padding-left: 0 !important;
+}
+
+.main_content {
+	margin-top: 60px;
+}
+
+.right_col {
+	position: fixed;
+}
+
+.right_search {
+	width: 230px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#toc {
+	display: none;
+	border: 1px solid #ccc;
+	/*box-shadow: 0 0 10px rgba(0,0,0,.3);*/
+	border-radius: 5px;
+	padding-left: 10px;
+	background: #fff;
+}
+
+#toc>ul>li {
+	margin-bottom: 5px;
+}
+
+#toc>ul>li>ul>li {
+	margin-bottom: 5px;
+}
+
+#toc>ul>li a {
+	word-break: break-all;
+}
+
+#toc>ul>li>ul>li a {
+    word-break: break-all;
+}
+
+#right_toc {
+	margin-left: 10px;
+	width: 250px;
+    max-height: 300px;
+    overflow-y: auto;
+	overflow-x: hidden;
+	margin-bottom: 10px;
+}
+
+#right_toc #toc {
+	display: table;
+	width: 230px;
+	max-width: 230px;
+}
+
+#toc ul ul, .toc ul ul {
+	margin-left: 10px;
+}
+
+.toctoggle {
+	display: none;
+}
+
+#recent-title {
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 3px;
+    padding-bottom: 4px;
+}
+
+#recent-title>h2 {
+	font-size: 1.5em;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+}
+
+#recent-list-div {
+	max-width: 230px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 7px;
+	padding-left: 10px;
+}
+
+#recent-list {
+	width: 230px;
+	margin:0px;
+	margin-top: 3.990px;
+	list-style:none;
+	font-size:95%;
+}
+#recent-list .new {
+	color:#ba0000;
+}
+
+.recent-more {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1em;
+	display: inline-block;
+}
+
+div#content {
+	/*border: 1px solid #888;*/
+	border: none;
+	border-bottom: none;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+	margin-left: 0;
+}
+
+.siteNotice {
+	padding: 5px;
+	margin: 0;
+	margin-top: 15px;
+}
+
+#localNotice {
+	margin-bottom: 0px;
+}
+
+#localNotice ul {
+	list-style-type: none;
+	margin: 0 auto;
+	text-align: center;
+	color: #333;
+}
+
+.top_menu {
+    height: 20px;
+	position: absolute;
+	right: 20px;
+	top: 8px;
+}
+
+.top_menu>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top_menu>ul>li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.top_menu>ul>li>a {
+    font-size: 12px;
+}
+
+#toctitle {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+
+#toctitle>h2 {
+    font-size: 1.6em;
+}
+
+#mw-content-text p {	
+	line-height: 1.7em;
+}
+
+#mw-content-text ul {
+	line-height: 1.7em;
+	list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAYElEQVQIW2OcN2/e/wsXLjCAACsrK4O2tjZDUlISI4jPmJeX9x8sAwUgBcXFxQxSUlKM+CWBqv7//v0bbiyIAdcJsvPq1atwY0F2enh4QIwFiT579gzFXpAYXBLZQchsANVcIQjW8cb3AAAAAElFTkSuQmCC");
+
+}
+
+#mw-content-text {
+	font-size: 15px;
+}
+
+#firstHeading {
+    margin: 0;
+	text-shadow: #aaa 1px 1px 1px;
+	font-size: 2.5em;
+	font-weight: bold;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    margin-top: 12px;
+}
+
+
+#mw-content-text>h2 {
+    font-size: 1.8em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+
+#mw-content-text>h3 {
+    font-size: 1.6em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+
+#mw-content-text>h4 {
+    font-size: 1.4em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+#mw-content-text>h5 {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+#mw-content-text>h6 {
+    font-size: 1.0em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+
+
+table.wikitable {
+	margin-left: 5px;
+}
+
+legend {
+	padding: .5em;
+	margin-bottom: 10px;
+	font-size: 95%;
+	border: none;
+	width: auto;
+	margin: 0;
+}
+
+.rcoptions {
+	border: 1px solid #337ab7;
+	margin: 0 0 1em 0;
+	padding: 0 1em 1em;
+	line-height: 1.5em;
+	float: right;
+}
+
+.rcoptions hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+.mw-specialpage-summary>p {
+	padding: 0 !important;
+}
+
+#toc ul {
+	list-style-image: none;
+}
+
+.mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-editsection {
+    margin-left:8px;
+}
+
+/* 하단 */
+div#footer {
+    margin: 0;
+	margin-top: 10px;
+    padding: 10px;
+    /*border: 1px solid #888;*/
+	border: none;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+	text-align: center;
+}
+
+div#footer ul li {
+    font-size: 14px;
+}
+
+body.ltr div#footer #footer-places {
+	text-align: center;
+	margin: 0 auto;
+	float: none;
+}
+
+
+.navbar-toggle {
+	float: left;
+	color: #333;
+	font-size: 25px;
+	margin: 0;
+	margin-left: 5px;
+	height: 25px;
+	top: 2px;
+	z-index: 2;
+}
+
+@media (max-width: 768px) {
+	.col-xs-3 {
+		display: none;
+	}
+	
+	.col-xs-9 {
+		width: 100%;
+	}
+
+	#toc {
+		display: table;
+	}
+
+	.top_menu {
+		top: 5px;
+		right: 10px;
+	}
+
+	.siteNotice {
+		margin-top: 18px;
+	}
+
+	#firstHeading {
+		margin-top: 15px;
+	}
+
+    .navbar-iWiki {
+        width:auto;
+        max-width: 1000px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        background-color: white;
+		border: none;
+    }
+    div#globalWrapper {
+        padding-top: 60px;
+    }
+
+    .navbar {
+        top: 0;
+    }
+    .navbar-iWiki {
+        width:auto;
+        max-width: 1000px;
+        box-shadow: 0 0 5px rgba(0,0,0,.2);
+    }
+
+    .navbar-toggle {
+        float: left;
+        color: #333;
+        font-size: 25px;
+        margin: 0;
+        margin-left: 5px;
+        height: 25px;
+        top: 2px;
+        z-index: 2;
+    }
+
+    .navbar-toogle-right {
+        float: right;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-search {
+        display: none;
+    }
+
+    .navbar-form {
+        display: none;
+    }
+
+    .navbar-small-form {
+        display: block;
+        position: absolute;
+        left: 15px;
+        padding-left: 54px;
+        padding-right: 48px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .navbar-personal {
+        margin-top: 26px;
+        box-shadow: 0 0 5px rgba(0,0,0,.2);
+    }
+
+    .loginbtn {
+        display: none;
+    }
+
+    div#navbar {
+        margin-top: 26px;
+        background-color: white;
+        position: absolute;
+        width: 210px;
+        box-shadow: 0 0 5px rgba(0,0,0,.2);
+    }
+
+	div#content {
+        box-shadow: 0 0 5px rgba(0,0,0,.2);
+        padding: 10px;
+		border: none;
+    }
+
+	div#footer {
+		border: none;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+        .navbar-iWiki {
+        width:auto;
+        max-width: 1000px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        background-color: white;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.container-fluid {
+		padding: 0;
+	}
+	
+    .navbar-iWiki {
+        width:auto;
+        max-width: 1000px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        background-color: white;
+    }
+	.col-xs-3 {
+		display: none;
+	}
+
+	.col-xs-9 {
+		width: 100%;
+	}
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-search {
+        display: none;
+    }
+
+    .navbar-form {
+        display: none;
+    }
+
+    .navbar-small-form {
+        display: block;
+        position: absolute;
+        left: 15px;
+        padding-left: 54px;
+        padding-right: 48px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .navbar-personal {
+        margin-top: 26px;
+        box-shadow: 0 0 5px rgba(0,0,0,.2);
+    }
+
+    .loginbtn {
+        display: none;
+    }
+
+	.navbar-toggle {
+		display: block !important;
+		float: left;
+		margin: 0;
+		margin-left: 5px;
+		height: 25px;
+		top: 2px;
+		z-index: 99999;
+	}
+
+	.navbar-toogle-right {
+        float: right;
+    }
+
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	
+	.navbar-collapse.in {
+		display: block !important;
+	}
+}
+
+a:visited.btn {
+    color: white;
+}
+
+a:visited.navbar-brand {
+    color: #333;
+}
+
+a:visited {
+    color: #337ab7;
+}
+
+del {
+	color: #999;
+}
+
+s, strike {
+	color: #999 !important;
+}
+
+#mw-content-text p {
+	padding-left: 5px;
+}
+
+
+/* 최근바뀜 */
+.mw-changeslist {
+	float: left;
+}
+.mw-changeslist h4 {
+	margin: 0;
+}
+
+.mw-changeslist-legend {
+	display: none;
+}
+
+.special {
+	list-style-type: none;
+	list-style-image: none !important;
+	margin: 0;
+}
+
+.special li {
+	border-bottom: 1px dashed #ccc;
+	padding: 5px;
+}
+
+.mw-changeslist-date {
+	font-weight: bold;
+}
+
+.mw-changeslist-separator {
+	display: none;
+}
+
+.mw-plusminus-pos {
+	margin-left: 5px;
+}
+
+.mw-plusminus-neg {
+	margin-left: 5px;
+}
+
