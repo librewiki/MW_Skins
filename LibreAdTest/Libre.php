@@ -39,7 +39,7 @@ $GLOBALS['wgAutoloadClasses']['LibreTemplate'] = __DIR__ . '/LibreTemplate.php';
 $GLOBALS['wgMessagesDirs']['Libre'] = __DIR__ . '/i18n';
 
 // Register skin
-$GLOBALS['wgValidSkinNames']['libre'] = 'Libre';
+$GLOBALS['wgValidSkinNames']['libre'] = 'Libre-AD_TEST';
 
 // Register config
 $GLOBALS['wgConfigRegistry']['libre'] = 'GlobalVarConfig::newInstance';
