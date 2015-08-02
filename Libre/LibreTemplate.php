@@ -307,8 +307,7 @@ class LibreTemplate extends BaseTemplate {
 								</div>
 								<ul id = "recent-list">
 									<li>불러오고 있습니다...</li>
-								</ul>\
-								가 나 다
+								</ul>
 							</div>
 							<!-- sidebar ad -->
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
