@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"이츠레아"
+		]
+	},
+	"skinname-libre": "리브레",
+	"libre-skin-desc": "리브레 위키의 스킨 / 디자인 참고 - 위키쨩(http://wiki-chan.net)",
+	"libre.css": "/* 이 CSS 설정은 리브레 스킨을 사용하는 사용자에게 적용됩니다 */",
+	"libre.js": "/* 이 자바스크립트 설정은 리브레 스킨을 사용하는 사용자에게 적용됩니다 */",
+	"libre-action-addsection": "새 주제",
+	"libre-action-delete": "삭제",
+	"libre-action-move": "옮기기",
+	"libre-action-protect": "보호",
+	"libre-action-undelete": "삭제 취소",
+	"libre-action-unprotect": "보호 설정 바꾸기",
+	"libre-view-create": "만들기",
+	"libre-view-edit": "편집",
+	"libre-view-history": "역사 보기",
+	"libre-view-view": "읽기",
+	"libre-view-viewsource": "원본 보기",
+	"libre-more-actions": "더 보기"
+}
