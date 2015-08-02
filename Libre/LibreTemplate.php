@@ -173,7 +173,7 @@ class LibreTemplate extends BaseTemplate {
 								if ( $wgUser->isLoggedIn() ) {
 								?>
 								<ul class="dropdown-menu" role="menu">
-									<?php $this->renderNavigation( 'PERSONAL' ); ?>	
+									<?php $this->renderNavigation( 'PERSONAL' ); ?>
 								</ul>
 								<?php
 								}
@@ -191,10 +191,10 @@ class LibreTemplate extends BaseTemplate {
 							<?php echo $this->makeSearchInput( array( "id" => "searchInput", "class" => "form-control", "placeholder" => "검색어") ); ?>
 						</form>
 					</div>
-					
+
 				</div><!--/.container-fluid -->
     		</nav>
-	
+
 			<!-- Main component for a primary marketing message or call to action -->
 			<div class="container-fluid libre_content">
 				<div class="row">
@@ -253,6 +253,16 @@ class LibreTemplate extends BaseTemplate {
 							</div>
 						</div>
 						<div id="footer" class="libre_footer" role="contentinfo"<?php $this->html( 'userlangattributes' ) ?>>
+							<!-- Footer ad -->
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<ins class="adsbygoogle"
+							 style="display:block; min-width:400px; width:100%; height:90px"
+							 data-ad-client="ca-pub-2664061841343191"
+							 data-ad-slot="6502738263"
+							 data-ad-format="auto"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
 							<?php foreach ( $this->getFooterLinks() as $category => $links ) { ?>
 							<ul id="footer-<?php echo $category ?>">
 								<?php foreach ( $links as $link ) { ?>
@@ -268,7 +278,7 @@ class LibreTemplate extends BaseTemplate {
 								<li id="footer-<?php echo htmlspecialchars( $blockName ); ?>ico">
 								<?php
 								foreach ( $footerIcons as $icon ) {
-									echo $this->getSkin()->makeFooterIcon( $icon ); 
+									echo $this->getSkin()->makeFooterIcon( $icon );
 								} ?>
 								</li>
 							<?php } ?>
@@ -299,6 +309,16 @@ class LibreTemplate extends BaseTemplate {
 									<li>불러오고 있습니다...</li>
 								</ul>
 							</div>
+							<!-- sidebar ad -->
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- Sidebar -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:230px;height:600px;margin-top:10px;"
+							     data-ad-client="ca-pub-2664061841343191"
+							     data-ad-slot="1395737460"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+							</script>
 						</div>
 					</div>
 				</div>
@@ -363,7 +383,7 @@ class LibreTemplate extends BaseTemplate {
 							<a href="#" data-toggle="dropdown" aria-expanded="false">도구</a>
 							<ul class="dropdown-menu libre_tools" role="menu">
 								<li id="ca-watch">
-								<?php 
+								<?php
 									if ($mode != 'watch') {
 										$watchname = '주시해제';
 									} else {
