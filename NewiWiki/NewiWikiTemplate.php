@@ -319,7 +319,7 @@ class NewiWikiTemplate extends BaseTemplate {
 																								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 																								<!-- Sidebar -->
 																								<ins class="adsbygoogle"
-																										 style="display:inline-block;width:230px;height:100%;max-height:600px;margin-top:10px;margin-left:10px;"
+																										 style="display:inline-block;width:230px;height:80%;margin-top:10px;margin-left:10px;"
 																										 data-ad-client="ca-pub-2664061841343191"
 																										 data-ad-slot="1395737460"></ins>
 																								<script>
