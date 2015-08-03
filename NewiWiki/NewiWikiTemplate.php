@@ -225,7 +225,7 @@ class NewiWikiTemplate extends BaseTemplate {
 									<!-- Footer ad -->
 								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 								<ins class="adsbygoogle"
-									 style="display:block; min-width:320px; width:100%; height:90px;margin-top:10px;"
+									 style="display:block; min-width:320px; width:100%; height:90px;margin-top:15px;"
 									 data-ad-client="ca-pub-2664061841343191"
 									 data-ad-slot="6502738263"
 									 data-ad-format="auto"></ins>
