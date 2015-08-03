@@ -97,7 +97,7 @@ class NewiWikiTemplate extends BaseTemplate {
 		?>
 		<div id="mw-page-base" class="noprint"></div>
 		<div id="mw-head-base" class="noprint"></div>
-		<div id="body_wrap" class="container-fluid">	
+		<div id="body_wrap" class="container-fluid">
 		<div class="top_navi">
 		<div class="navbar navbar-iWiki navbar-fixed-top">
 			<div class="container-fluid">
@@ -159,6 +159,16 @@ class NewiWikiTemplate extends BaseTemplate {
 	<div class="row main_content">
 		<div class="col-xs-9">
 			<div id="content" class="mw-body" role="main">
+				<!-- Footer ad -->
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<ins class="adsbygoogle"
+				 style="display:block; min-width:320px; width:100%; height:90px"
+				 data-ad-client="ca-pub-2664061841343191"
+				 data-ad-slot="6502738263"
+				 data-ad-format="auto"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
 				<a id="top"></a>
 				<div class="top_menu">
 					<ul>
@@ -301,6 +311,16 @@ class NewiWikiTemplate extends BaseTemplate {
                                                         </div>
                                                         <ul id = "recent-list">
                                                         </ul>
+																												<!-- sidebar ad -->
+																												<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+																												<!-- Sidebar -->
+																												<ins class="adsbygoogle"
+																												     style="display:inline-block;width:230px;height:100%;max-height:600px;margin-top:10px;"
+																												     data-ad-client="ca-pub-2664061841343191"
+																												     data-ad-slot="1395737460"></ins>
+																												<script>
+																												(adsbygoogle = window.adsbygoogle || []).push({});
+																												</script>
                                                 </div>
                                         </div>
                 </div>
