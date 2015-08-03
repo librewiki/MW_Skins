@@ -214,16 +214,6 @@ class NewiWikiTemplate extends BaseTemplate {
 					</ul>
 				</div>
 
-					<!-- Footer ad -->
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<ins class="adsbygoogle"
-					 style="display:block; min-width:320px; width:100%; height:90px"
-					 data-ad-client="ca-pub-2664061841343191"
-					 data-ad-slot="6502738263"
-					 data-ad-format="auto"></ins>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
 				<div id="mw-js-message" style="display:none;"<?php $this->html( 'userlangattributes' ) ?>></div>
 				<?php if ( $this->data['sitenotice'] ) { ?>
 					<div id="alertmsg" class="alert alert-info siteNotice alert-dismissible" role="alert">
@@ -231,6 +221,17 @@ class NewiWikiTemplate extends BaseTemplate {
 						<?php $this->html( 'sitenotice' ) ?>
 					</div>
 				<?php } ?>
+
+									<!-- Footer ad -->
+								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+								<ins class="adsbygoogle"
+									 style="display:block; min-width:320px; width:100%; height:90px"
+									 data-ad-client="ca-pub-2664061841343191"
+									 data-ad-slot="6502738263"
+									 data-ad-format="auto"></ins>
+								<script>
+									(adsbygoogle = window.adsbygoogle || []).push({});
+								</script>
 				<h1 id="firstHeading" class="firstHeading" lang="<?php
 					$this->data['pageLanguage'] = $this->getSkin()->getTitle()->getPageViewLanguage()->getHtmlCode();
 					$this->text( 'pageLanguage' );
@@ -318,7 +319,7 @@ class NewiWikiTemplate extends BaseTemplate {
 																								<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 																								<!-- Sidebar -->
 																								<ins class="adsbygoogle"
-																										 style="display:inline-block;width:230px;height:100%;max-height:600px;margin-top:10px;"
+																										 style="display:inline-block;width:230px;height:100%;max-height:600px;margin-top:10px;margin-left:10px;"
 																										 data-ad-client="ca-pub-2664061841343191"
 																										 data-ad-slot="1395737460"></ins>
 																								<script>
