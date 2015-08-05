@@ -312,11 +312,12 @@ class LibreTemplate extends BaseTemplate {
 							</div>
 							<!-- sidebar ad -->
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-							<!-- Sidebar -->
+							<!-- 사이드바 -->
 							<ins class="adsbygoogle"
-							     style="display:inline-block;width:230px;height:100%;margin-top:10px;"
+							     style="display:block;max-width:230px;margin-top:10px;height:100%;max-height:600px;"
 							     data-ad-client="ca-pub-2664061841343191"
-							     data-ad-slot="1395737460"></ins>
+							     data-ad-slot="2751059465"
+							     data-ad-format="auto"></ins>
 							<script>
 							(adsbygoogle = window.adsbygoogle || []).push({});
 							</script>
