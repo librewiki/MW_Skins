@@ -1062,6 +1062,7 @@ input[type="checkbox"] {
 	color: #777;
 	width:115px;
 	border-radius: 0px 0px 0px 0px;
-	margin-left: 0px;margin-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 /* End Other */
