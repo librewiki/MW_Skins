@@ -254,7 +254,7 @@ jQuery( function ( $ ) {
   $("#libre_recent-tab2").click(function(e){
     $(this).addClass('libre_recent-selected');
     $("#libre_recent-tab1").removeClass('libre_recent-selected');
-    _rcnamespace = "1|3|5|7|9|11|13|15|16";
+    _rcnamespace = "1|3|5|7|9|11|13|15|2600";
     ShowAjaxRecentList($("#recent-list"));
   });
 } );
