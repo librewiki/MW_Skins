@@ -132,7 +132,7 @@ class LibreTemplate extends BaseTemplate {
 							<span class="sr-only">Toggle navigation</span>
 							<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 			                        </button>
-						<a class="navbar-brand" href="/wiki/FrontPage"><img alt="<?=$this->msg( 'tagline' );?>" src="//librewiki.net/skins/Libre/logo.png" style="width: auto; height: 36px" /></a>
+						<a class="navbar-brand" href="/wiki/리브레_위키:현관"><img alt="<?=$this->msg( 'tagline' );?>" src="//librewiki.net/skins/Libre/logo.png" style="width: auto; height: 36px" /></a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav libre_navbar_menu">
@@ -296,19 +296,21 @@ class LibreTemplate extends BaseTemplate {
 							</form>
 							<div id="libre_right_toc">
 							</div>
-							<div id = "recent-list-div">
 								<div class="libre_recent-title">
-									<h2>최근 바뀜
-										<span class="recent-more">
-											<span class="mw-editsection-bracket">[</span>
-											<a href="/wiki/특수:최근바뀜" title="최근바뀜문서">more</a>
-											<span class="mw-editsection-bracket">]</span>
-										</span>
-									</h2>
+									<ul class="nav nav-tabs" id="libre_recent-tabs">
+  								<li><a href="#" id="libre_recent-tab1" class="libre_recent-selected">최근 바뀜</a></li>
+  								<li><a href="#" id="libre_recent-tab2">최근 토론</a></li>
+									</ul>
 								</div>
+								<div id = "recent-list-div">
 								<ul id = "recent-list">
 									<li>불러오고 있습니다...</li>
 								</ul>
+									<span class="recent-more">
+										<span class="mw-editsection-bracket">[</span>
+										<a href="/wiki/특수:최근바뀜" title="최근바뀜문서">more</a>
+										<span class="mw-editsection-bracket">]</span>
+									</span>
 							</div>
 							<!-- sidebar ad -->
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -429,7 +431,7 @@ class LibreTemplate extends BaseTemplate {
 						<li class="thick"><?php echo Linker::linkKnown( $title, '편집', array( 'title' => '문서를 편집합니다. [alt+shift+e]', 'accesskey' => 'e' ), $editaction ); ?></li>
 						<li class="hidden"><?php echo Linker::linkKnown( $title, '읽기', array( 'title' => '문서 캐쉬를 새로 지정하여 문서를 불러옵니다. [alt+shift+p]', 'accesskey' => 'p' ), array( 'action' => 'purge' ) ); ?></li>
 					</ul>
-					<?
+					<?php
 					}
 					break;
 			}
