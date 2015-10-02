@@ -219,7 +219,7 @@ fieldset {
 	line-height: 170%;
 }
 
-/*.libre_content p { 
+/*.libre_content p {
 	text-indent: .5em;
 }*/
 
@@ -314,7 +314,7 @@ fieldset {
 
 .libre_content_tools>li.thick>a:hover, .libre_content_tools>li.thick>a:focus {
 	background-color: #487A48;
-	border: 1px solid #397939;	
+	border: 1px solid #397939;
 }
 
 .libre_tools {
@@ -440,7 +440,7 @@ fieldset {
 }
 
 .recent-more {
-	font-size: 0.6em;
+	font-size: 0.8em;
 }
 
 #recent-list {
@@ -572,7 +572,7 @@ table.wikitable {
 	margin: auto;
 }
 
-table.wikitable tr:first-child th:first-child { 
+table.wikitable tr:first-child th:first-child {
 	border-top-left-radius: 3px;
 }
 
@@ -588,7 +588,7 @@ table.wikitable tr:last-child th:last-child {
 	border-bottom-right-radius: 3px;
 }
 
-table.wikitable th, table.wikitable > tr > th, table.wikitable > * > tr > th { 
+table.wikitable th, table.wikitable > tr > th, table.wikitable > * > tr > th {
 	padding: 0.3em;
 	border-left: none;
 	border-right: none;
@@ -600,7 +600,7 @@ table.wikitable th, table.wikitable > tr > th, table.wikitable > * > tr > th {
 	/*text-shadow: 1px 1px 0px #fff;*/
 }
 
-table.wikitable td, table.wikitable > tr > td, table.wikitable > * > tr > td { 
+table.wikitable td, table.wikitable > tr > td, table.wikitable > * > tr > td {
 	padding: .3em .5em;
 	border-right: none;
 	/*border-top: 1px solid #fff;*/
@@ -611,15 +611,15 @@ table.wikitable td, table.wikitable > tr > td, table.wikitable > * > tr > td {
 	background: linear-gradient(to bottom,#fdfdfd 0%,#fefefe 100%);*/
 }
 
-/*table.wikitable td:first-child { 
+/*table.wikitable td:first-child {
 	border-left: 0;
 }*/
 
-th[rowspan], td[rowspan] { 
+th[rowspan], td[rowspan] {
 	position: relative;
 }
 
-th[rowspan]:after, td[rowspan]:after { 
+th[rowspan]:after, td[rowspan]:after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -629,12 +629,12 @@ th[rowspan]:after, td[rowspan]:after {
 	/*background: #e0e0e0;*/
 }
 
-table.wikitable > tbody > tr:nth-child(odd) > td { 
+table.wikitable > tbody > tr:nth-child(odd) > td {
 	/*background-color: #f8f8f8;
 	background: linear-gradient(to bottom,#f8f8f8 0%,#f6f6f6 100%);*/
 }
 
-table.wikitable caption { 
+table.wikitable caption {
 	text-align: center;
 	font-size: 125%;
 	padding: 5px 0px;
@@ -642,7 +642,7 @@ table.wikitable caption {
 	color: #333;
 }
 
-table.wikitable + table.wikitable { 
+table.wikitable + table.wikitable {
 	margin-top: 1em;
 }
 
@@ -772,7 +772,7 @@ h2.flow-topic-title {
 
 	.col-xs-9 {
 		width: 75%;
-	}	
+	}
 
 	#toc {
 		display: none;
@@ -994,12 +994,12 @@ input[type="button"], input[type="submit"] {
 	padding: 7px 12px;
 }
 
-input[type="button"]:hover, input[type="submit"]:hover, input[type="button"]:active, input[type="submit"]:active, input[type="button"]:focus, input[type="submit"]:focus { 
+input[type="button"]:hover, input[type="submit"]:hover, input[type="button"]:active, input[type="submit"]:active, input[type="button"]:focus, input[type="submit"]:focus {
 	box-shadow: inset 0px 0px 4px rgba(255,255,255,0.9);
 	text-decoration: none !important
 }
 
-input[type="checkbox"] { 
+input[type="checkbox"] {
 	margin: 0 0 0 7px;
 	vertical-align: text-top;
 	position: relative;
@@ -1022,14 +1022,14 @@ input[type="checkbox"] {
 	position: fixed;
 	bottom: 2.1rem;
 	right: 8rem;
-	width: 250px; 
+	width: 250px;
 	left: auto;
 }
-.notice-item { 
+.notice-item {
 	padding: 8px 5px 8px 5px;
 }
 
-.notice-item { 
+.notice-item {
 	border-radius: 7px;
 	background: #fff url(LibLen.png) no-repeat 7px;
 	color: #424242;
@@ -1041,4 +1041,27 @@ input[type="checkbox"] {
 	border-radius:7px;
 }
 
+#libre_recent-tabs {
+	border-width: 0px !important;
+}
+
+.libre_recent-title {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.libre_recent-selected {
+	background-color:#F4F4F4 !important;
+}
+
+#recent-list-div {
+	margin-top: 0px;
+}
+
+#libre_recent-tab1, #libre_recent-tab2 {
+	color: #777;
+	width:115px;
+	border-radius: 0px 0px 0px 0px;
+	margin-left: 0px;margin-right: 0px;
+}
 /* End Other */
