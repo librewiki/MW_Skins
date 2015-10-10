@@ -298,8 +298,8 @@ class LibreTemplate extends BaseTemplate {
 							</div>
 								<div class="libre_recent-title">
 									<ul class="nav nav-tabs" id="libre_recent-tabs">
-  								<li><a href="#" id="libre_recent-tab1" class="libre_recent-selected">최근 바뀜</a></li>
-  								<li><a href="#" id="libre_recent-tab2">최근 토론</a></li>
+  								<li><a href="javascript:" id="libre_recent-tab1" class="libre_recent-selected">최근 바뀜</a></li>
+  								<li><a href="javascript:" id="libre_recent-tab2">최근 토론</a></li>
 									</ul>
 								</div>
 								<div id = "recent-list-div">
