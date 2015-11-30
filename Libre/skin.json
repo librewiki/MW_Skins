@@ -1,0 +1,74 @@
+{
+	"name": "Libre",
+	"author": [
+		"이츠레아",
+		"..."
+	],
+	"url": "https://librewiki.net/wiki/Skin:Libre",
+	"descriptionmsg": "libre-skin-desc",
+	"namemsg": "skinname-libre",
+	"license-name": "GPL-2.0+",
+	"type": "skin",
+	"ConfigRegistry": {
+		"libre": "GlobalVarConfig::newInstance"
+	},
+	"ValidSkinNames": {
+		"libre": "Libre"
+	},
+	"MessagesDirs": {
+		"Libre": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SkinLibre": "SkinLibre.php",
+		"LibreTemplate": "LibreTemplate.php"
+	},
+	"@note": "When modifying skins.libre.styles definition, make sure the installer still works",
+	"ResourceModules": {
+		"skins.libre.styles": {
+			"position": "top",
+			"styles": {
+				"bootstrap/css/bootstrap.css": {
+					"media": "all"
+				},
+				"libre.css": {
+					"media": "all"
+				},
+				"darklibre.css": {
+					"media": "all"
+				}
+			}
+		},
+		"skins.libre.js": {
+			"scripts": [
+				"js/jquery.js",
+				"js/collapsibleTabs.js",
+				"bootstrap/js/bootstrap.min.js",
+				"js/tocmove.js",
+				"js/libre.js",
+				"js/liveRecents.js",
+				"js/alertmsg.js",
+				"js/jquery.cookie.js",
+				"js/cite.js",
+				"js/scroll.js",
+				"js/darklibre.js"
+			],
+			"position": "bottom",
+			"dependencies": [
+				"jquery.throttle-debounce",
+				"jquery.tabIndex"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Libre"
+	},
+	"config": {
+		"LibreUseSimpleSearch": true,
+		"LibreUseIconWatch": true,
+		"LibreResponsive": false
+	},
+	"manifest_version": 1
+}
