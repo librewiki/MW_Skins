@@ -42,7 +42,7 @@
 		},
 		"skins.libre.js": {
 			"scripts": [
-				"js/jquery.js",
+				"js/jquery.min.js",
 				"js/collapsibleTabs.js",
 				"bootstrap/js/bootstrap.min.js",
 				"js/tocmove.js",
