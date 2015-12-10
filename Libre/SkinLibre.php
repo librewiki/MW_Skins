@@ -58,8 +58,7 @@ class SkinLibre extends SkinTemplate {
 				"/{$this->stylename}/csshover{$min}.htc\")}</style><![endif]-->"
 		);*/
 		//$out->addHeadItem( 'csshover', '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />'  );
-
-		//$out->addScriptFile( 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js' );
+		//$out->addScriptFile( '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' );
 		$out->addModules( array( 'skins.libre.js' ) );
 
 		$out->addMeta( 'viewport', 'width=device-width, initial-scale=1, maximum-scale=1' );

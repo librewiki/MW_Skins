@@ -210,7 +210,6 @@ class LibreTemplate extends BaseTemplate {
 							</div>
 							<?php } ?>
 							<!-- Footer ad -->
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 						<ins class="adsbygoogle"
 							 style="display:block; min-width:320px; width:100%; height:90pxmargin-top:15px;margin-bottom:10px;"
 							 data-ad-client="ca-pub-2664061841343191"
@@ -313,16 +312,12 @@ class LibreTemplate extends BaseTemplate {
 									</span>
 							</div>
 							<!-- sidebar ad -->
-							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<!-- 사이드바 -->
 							<ins class="adsbygoogle"
 							     style="display:block;max-width:230px;margin-top:10px;height:100%;max-height:600px;"
 							     data-ad-client="ca-pub-2664061841343191"
 							     data-ad-slot="2751059465"
 							     data-ad-format="auto"></ins>
-							<script>
-							(adsbygoogle = window.adsbygoogle || []).push({});
-							</script>
 						</div>
 					</div>
 				</div>
@@ -336,6 +331,9 @@ class LibreTemplate extends BaseTemplate {
 				<span class="glyphicon glyphicon-open"></span>
 			</a>
 		</div>
+		<script>
+                	(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 	</body>
 </html>
 	<?php

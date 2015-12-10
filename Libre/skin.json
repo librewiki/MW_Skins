@@ -52,7 +52,8 @@
 				"js/jquery.cookie.js",
 				"js/cite.js",
 				"js/scroll.js",
-				"js/darklibre.js"
+				"js/darklibre.js",
+				"js/adsbygoogle.js"
 			],
 			"position": "bottom",
 			"dependencies": [
